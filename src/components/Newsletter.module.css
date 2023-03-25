@@ -1,0 +1,43 @@
+.emailContainer{
+	display: flex;
+	justify-content: center;
+
+}
+
+.emailInput{
+	margin-right: 1rem;
+	border-radius: 0.2rem;
+	border: 2px solid #bd9c77;
+	height: 3rem;
+	padding-left: 0.7rem
+}
+
+.instagramLogo{
+	width: 3rem;
+	margin-bottom: 2rem;
+}
+
+a{
+	cursor: pointer;
+}
+
+.action {
+	background:linear-gradient(to bottom, #ebc69b 5%, #e2c4a2 100%);
+	background-color:#ebc69b;
+	border-radius:0.3rem;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:25px;
+	padding: 0.8rem 26px;
+	text-decoration:none;
+    border: none;
+}
+.action:hover {
+	background:linear-gradient(to bottom, #e4b683 5%, #ebc69b 100%);
+	background-color:#bd9c77;
+}
+.action:active {
+	position:relative;
+	top:1px;
+}

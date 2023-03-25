@@ -1,0 +1,5 @@
+.PageDivider{
+    display: block;
+    border-bottom: 3px solid #ddd;
+    margin: 4rem 0rem;
+}

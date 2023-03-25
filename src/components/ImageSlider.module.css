@@ -1,0 +1,10 @@
+.slideContainer{
+    
+}
+
+.divStyle{
+    display: 'flex';
+    align-items: 'center';
+    justify-content: 'center';
+    background-size: 'cover';
+}

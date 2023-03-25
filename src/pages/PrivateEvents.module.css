@@ -1,0 +1,19 @@
+.PrivateEventsContent{
+    display: block;
+    margin: 0rem 7rem;
+}
+
+.img{
+    width: 700px;
+    border-radius:0.7rem;
+    border: 3px solid #e2c4a2;
+}
+
+ul{
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
+.text{
+    text-align: left;
+}

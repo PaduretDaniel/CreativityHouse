@@ -1,0 +1,56 @@
+.Navbar{
+    height: 17rem;
+    padding-top: 1rem;
+    font-size: 1.7em;
+}
+
+.logoContainer{
+    display: block;
+    text-align: left;
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+
+.logoText{
+    display: inline;
+    vertical-align: middle;
+
+}
+
+.logoImg{
+    display: inline;
+    width: 150px;
+    vertical-align: middle;
+}
+
+.pagesContainer{
+    text-align: right;
+    margin-top:2rem;
+    margin-right: 7rem;
+}
+
+.pageLink{
+    display: inline;
+    position: relative;
+    font-size: 1.3rem;
+    margin: 0rem 1.5rem;
+    cursor: pointer;
+}
+
+.pageLink:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #968977;
+    transform-origin: bottom right;
+    transition: transform 0.35s ease-out;
+}
+
+.pageLink:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}

@@ -1,0 +1,9 @@
+
+
+.image{
+    display: inline-block;
+    width: 205px;
+    height: auto;
+    border: 3px solid #ddd;
+    border-radius: 1rem;
+}
